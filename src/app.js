@@ -1,4 +1,6 @@
-export function suma(a, b) { return a + b; }
+export function suma(a, b) {
+  return a + b;
+}
 
 export function agregarItem(texto) {
   const lista = document.getElementById('lista');
