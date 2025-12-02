@@ -1,8 +1,8 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
-function suma(a, b) {
-  return a + b;
-}
-test('suma 2 + 3 = 5', () => {
-  assert.equal(suma(8, 3), 5);
+import assert from 'assert';
+import { suma } from '../SRC/app.js';
+
+describe('suma', () => {
+  it('suma 2 + 3 debe ser 5', () => {
+    assert.strictEqual(suma(2, 3), 5);
+  });
 });
