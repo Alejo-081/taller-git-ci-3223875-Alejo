@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { suma } from '/src/app.js';
+import { suma } from '../src/app.js';
 
 describe('suma', () => {
   it('suma 2 + 3 debe ser 5', () => {
