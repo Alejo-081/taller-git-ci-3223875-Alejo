@@ -11,8 +11,3 @@ export function agregarItem(texto) {
 }
 
 console.log('App lista');
-
-document.getElementById('btnAgregar')?.addEventListener('click', () => {
-  const texto = `Item ${Date.now()}`;
-  agregarItem(texto);
-});
